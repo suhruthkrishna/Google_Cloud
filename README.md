@@ -11,6 +11,27 @@ The urgency for real-time and accurate data analysis has never been more critica
 
 ## Repository Structure
 
+/data/
+    └── Provisional_Percent_of_Deaths_for_COVID-19_Influenza_and_RSV_by_Select_Characteristics_20240418.csv
+        # Dataset used for the analysis. Contains mortality data due to COVID-19, Influenza, and RSV categorized by various demographics.
+
+/PDF/
+    └── 1000_rows.pdf
+        # Jupyter Notebook converted into PDF format for data cleaning and visualization. This document details the methodology and the visualization outputs.
+
+/scripts/
+    ├── state_wise_sql
+        # SQL script used for aggregating data on a state-wise basis.
+    └── comparison_deaths.sql
+        # SQL script for comparing death rates between different pathogens.
+
+/docs/
+    └── Project_Report.pdf
+        # Comprehensive project report detailing the objectives, methodologies, results, and conclusions of the project.
+
+/README.md
+    # Overview of the repository, instructions for setting up and running the project, and additional notes.
+
 /
 ├── data/
 │   └── Provisional_Percent_of_Deaths_for_COVID-19__Influenza__and_RSV_by_Select_Characteristics_20240418.csv   # Dataset used for the analysis
