@@ -32,21 +32,6 @@ The urgency for real-time and accurate data analysis has never been more critica
 /README.md
     # Overview of the repository, instructions for setting up and running the project, and additional notes.
 
-/
-├── data/
-│   └── Provisional_Percent_of_Deaths_for_COVID-19__Influenza__and_RSV_by_Select_Characteristics_20240418.csv   # Dataset used for the analysis
-
-├── PDF/
-│   ├── 1000_rows.pdf   # Notebook for data cleaning and visualization. Downloaded the Jupyter notebook and produced.
-
-├── scripts/
-│   └── state_wise.sql
-│   └── comparision_deaths.sql
-├── docs/
-│   ├── Project_Report.pdf         # Comprehensive project report
-└── README.md
-/
-
 ## Setup and Installation
 ### Prerequisites
 ->Google Cloud Platform account
