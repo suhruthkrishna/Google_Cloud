@@ -13,18 +13,18 @@ The urgency for real-time and accurate data analysis has never been more critica
 
 /
 ├── data/
-│   └── mortality_data.csv   # Dataset used for the analysis
-├── notebooks/
-│   ├── Data_Preprocessing.ipynb   # Notebook for data cleaning and preparation
-│   └── Data_Analysis.ipynb        # Notebook for conducting the data analysis
+│   └── Provisional_Percent_of_Deaths_for_COVID-19__Influenza__and_RSV_by_Select_Characteristics_20240418.csv   # Dataset used for the analysis
+
+├── PDF/
+│   ├── 1000_rows.pdf   # Notebook for data cleaning and visualization. Downloaded the Jupyter notebook and produced.
+
 ├── scripts/
-│   └── setup.sh                   # Script to set up environment variables
-├── images/
-│   └── mortality_trends.png       # Generated visualizations
+│   └── state_wise.sql
+│   └── comparision_deaths.sql
 ├── docs/
 │   ├── Project_Report.pdf         # Comprehensive project report
-│   └── Usage_Guide.md             # Guide on how to use this repository
 └── README.md
+/
 
 ## Setup and Installation
 ### Prerequisites
